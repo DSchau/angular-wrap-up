@@ -5,7 +5,7 @@
   "main": "dist/bundle.js",
   "scripts": {
     "precommit": "lint-staged",
-    "postcommit": "npm run deploy",
+    "postreceive": "npm run deploy",
     "clean": "rimraf dist",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js",
     "predeploy": "npm run build",
