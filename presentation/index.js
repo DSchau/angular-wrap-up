@@ -165,6 +165,11 @@ export default class Presentation extends React.Component {
             <ListItem>Testing is needlessly complex (see: next slide)</ListItem>
             <Appear>
               <ListItem>
+                Stack traces/error messages are regularly convuluted and complicated
+              </ListItem>
+            </Appear>
+            <Appear>
+              <ListItem>
                 Not convinced that dependency injection is worth the hassle
               </ListItem>
             </Appear>
